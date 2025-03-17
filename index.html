@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav id="navbar">
+        <div class="logo">Anime List</div>
+        <div class="nav-links">
+            <a href="#" data-page="top">Top Anime</a>
+            <a href="#" data-page="search">Search</a>
+        </div>
+    </nav>
+
+    <!-- CONTENT SECTION -->
+    <main id="content">
+        <section id="search-section">
+            <input type="text" id="search-input" placeholder="Search anime...">
+            <button id="search-button">Search</button>
+        </section>
+
+        <div id="loading" class="loading-spinner hidden">Loading...</div>
+        <div id="error-message" class="error-message hidden"></div>
+        
+        <section id="anime-grid" class="anime-grid">
+            <!-- Anime cards will be dynamically inserted here -->
+        </section>
+
+        <div id="pagination" class="pagination hidden">
+            <button id="prev-page">Previous</button>
+            <span id="current-page">Page 1</span>
+            <button id="next-page">Next</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
