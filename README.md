@@ -1,24 +1,23 @@
+<h1>anime catalog list (search and order only)</h1>
+<p>a simple web application that allows users to search for anime titles and explore the top-ranked series.</p>
 
-<h1>Anime Catalog List (Search and Order Only)</h1>
-<p>A simple web application that allows users to search for anime titles and explore the top-ranked series.</p>
-
-<h2>Features</h2>
+<h2>features</h2>
 <ul>
-    <li><strong>Search</strong> for anime titles</li>
-    <li><strong>View</strong> top anime rankings</li>
-    <li>Minimalist and user-friendly interface</li>
+    <li><strong>search</strong> for anime titles</li>
+    <li><strong>view</strong> top anime rankings</li>
+    <li>minimalist and user-friendly interface</li>
 </ul>
 
-<h2>Technologies Used</h2>
+<h2>technologies used</h2>
 <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
 </ul>
 
-<h2>Future Improvements</h2>
+<h2>future improvements</h2>
 <ul>
-    <li>Add anime details page</li>
-    <li>Implement user ratings and reviews</li>
-    <li>Save favorite anime</li>
+    <li>add anime details page</li>
+    <li>implement user ratings and reviews</li>
+    <li>save favorite anime</li>
 </ul>
